@@ -1,6 +1,6 @@
 from moviepy.editor import VideoFileClip
 
-
+ 
 def process_video(input_img):
     return input_img  # return input,result and mask heatmap image combined as one
 
