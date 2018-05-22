@@ -4,8 +4,8 @@ from moviepy.editor import VideoFileClip
 def process_video(input_img):
     return input_img  # return input,result and mask heatmap image combined as one
 
-output = 'tmp/tmp.mp4'
-clip = VideoFileClip("data/dance_short.mp4")
+output = '../tmp/tmp.mp4'
+clip = VideoFileClip("../data/dance_short.mp4")
 
 # A get around for the issue https://github.com/Zulko/moviepy/issues/682
 # solved by https://github.com/Zulko/moviepy/issues/586
